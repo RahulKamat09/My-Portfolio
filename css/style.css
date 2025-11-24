@@ -329,7 +329,7 @@ p {
 
 .custom-btn:hover {
     background: orange;
-    transform: translateY(-4px);
+    transform: scale(1.03);
     box-shadow: 0 8px 20px rgba(62, 168, 255, 0.4);
 }
 

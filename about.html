@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -25,7 +29,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg py-3 sticky-top">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" data-aos="fade-right"
+                data-aos-duration="1500">
                 <span class="logo-icon">
                     &lt;<span class="slash">/</span>&gt;
                 </span>
@@ -35,7 +40,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navMenu">
+            <div class="collapse navbar-collapse" id="navMenu" data-aos="fade-left" data-aos-duration="1500">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-2"><a class="nav-link fw-bold" href="index.html">Home</a></li>
                     <li class="nav-item mx-2"><a class="nav-link active fw-bold" href="about.html">About</a></li>
@@ -52,16 +57,16 @@
         <div class="container p-3">
 
             <div class="text-center mb-5">
-                <h1 class="fw-bold display-5 text-white">
+                <h1 class="fw-bold display-5 text-white" data-aos="fade-up" data-aos-duration="1300">
                     About <span class="text-info">Me</span>
                 </h1>
 
-                <div class="underline mx-auto mt-2"></div>
+                <div class="underline mx-auto mt-2" data-aos="fade-up" data-aos-duration="1500"></div>
             </div>
 
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="about-card p-4 p-md-5">
+                    <div class="about-card p-4 p-md-5" data-aos="zoom-in" data-aos-duration="1000">
 
                         <h4 class="text-info fw-bold"><i class="bi bi-person display-7"></i> Who I Am</h4>
 
@@ -87,7 +92,7 @@
 
     <!-- Core Values Section -->
     <section class="container py-5">
-        <div class="text-center mb-5">
+        <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
             <h1 class="fw-bold text-light">
                 My <span class="text-info">Core Values</span>
             </h1>
@@ -96,7 +101,7 @@
         <div class="row g-4 justify-content-center">
 
             <!-- Card 1 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" data-aos="fade-right" data-aos-duration="1000">
                 <div class="value-card p-4 text-center h-100">
                     <div class="icon-wrap mx-auto mb-3">
                         <i class="bi bi-bullseye"></i>
@@ -109,7 +114,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" data-aos="fade-right" data-aos-duration="1000">
                 <div class="value-card p-4 text-center h-100">
                     <div class="icon-wrap mx-auto mb-3">
                         <i class="bi bi-heart"></i>
@@ -122,7 +127,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" data-aos="fade-left" data-aos-duration="1000">
                 <div class="value-card p-4 text-center h-100">
                     <div class="icon-wrap mx-auto mb-3">
                         <i class="bi bi-rocket-takeoff"></i>
@@ -135,7 +140,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" data-aos="fade-left" data-aos-duration="1000">
                 <div class="value-card p-4 text-center h-100">
                     <div class="icon-wrap mx-auto mb-3">
                         <i class="bi bi-people"></i>
@@ -152,7 +157,7 @@
 
     <!-- Do-Cards-Section-->
     <section class="container py-5">
-        <div class="text-center mb-5">
+        <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
             <h1 class="fw-bold display-6">
                 What <span class="text-warning">I Do</span>
             </h1>
@@ -161,7 +166,7 @@
         <div class="row g-4">
 
             <!-- Item 1 -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1200">
                 <div class="do-card d-flex align-items-center">
                     <i class="bi bi-check-circle-fill do-icon"></i>
                     <p class="mb-0 ms-3">Build fully responsive & animated web apps</p>
@@ -169,7 +174,7 @@
             </div>
 
             <!-- Item 2 -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1400">
                 <div class="do-card d-flex align-items-center">
                     <i class="bi bi-check-circle-fill do-icon"></i>
                     <p class="mb-0 ms-3">Design reusable UI components with modern frameworks</p>
@@ -177,7 +182,7 @@
             </div>
 
             <!-- Item 3 -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1600">
                 <div class="do-card d-flex align-items-center">
                     <i class="bi bi-check-circle-fill do-icon"></i>
                     <p class="mb-0 ms-3">Develop secure and optimized REST APIs</p>
@@ -185,7 +190,7 @@
             </div>
 
             <!-- Item 4 -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1800">
                 <div class="do-card d-flex align-items-center">
                     <i class="bi bi-check-circle-fill do-icon"></i>
                     <p class="mb-0 ms-3">Work with databases, authentication, and cloud deployment</p>
@@ -193,7 +198,7 @@
             </div>
 
             <!-- Item 5 -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
                 <div class="do-card d-flex align-items-center">
                     <i class="bi bi-check-circle-fill do-icon"></i>
                     <p class="mb-0 ms-3">Convert Figma/Adobe XD designs into functional pages</p>
@@ -201,7 +206,7 @@
             </div>
 
             <!-- Item 6 -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2200">
                 <div class="do-card d-flex align-items-center">
                     <i class="bi bi-check-circle-fill do-icon"></i>
                     <p class="mb-0 ms-3">Implement real-time features with WebSockets</p>
@@ -211,12 +216,15 @@
         </div>
     </section>
 
-<!-- Journey Section -->
+    <!-- Journey Section -->
     <section id="journey">
-        <h2 class="mb-5"><span style="color:white;">My</span> <span style="color:#0ea5e9;">Journey</span></h2>
-
+        <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="fw-bold display-6">
+                My <span class="text-info">Journey</span>
+            </h1>
+        </div>
         <!-- Card 1 -->
-        <div class="journey-card mt-4">
+        <div class="journey-card mt-4" data-aos="fade-up" data-aos-duration="1300">
             <div class="year-badge">2022</div>
             <div>
                 <div class="fs-5 fw-bold mb-2 text-ligt">Started Learning Coding Fundamentals</div>
@@ -227,7 +235,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="journey-card mt-4">
+        <div class="journey-card mt-4" data-aos="fade-up" data-aos-duration="1600">
             <div class="year-badge">2023</div>
             <div>
                 <div class="fs-5 fw-bold mb-2 text-ligt">Begin With Web Development</div>
@@ -238,7 +246,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="journey-card mt-4">
+        <div class="journey-card mt-4" data-aos="fade-up" data-aos-duration="1900">
             <div class="year-badge">2024</div>
             <div>
                 <div class="fs-5 fw-bold mb-2 text-light">Freelance Projects</div>
@@ -249,7 +257,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="journey-card mt-4 mb-5">
+        <div class="journey-card mt-4 mb-5" data-aos="fade-up" data-aos-duration="2200">
             <div class="year-badge">2025</div>
             <div>
                 <div class="fs-5 fw-bold mb-2 text-light">Mern-Stack Developement</div>
@@ -265,16 +273,18 @@
     <section class="skills-section py-5">
         <div class="container text-center p-4">
 
-            <h1 class="fw-bold display-6">
-                Technical<span class="text-warning"> Skills</span>
-            </h1>
-            <p class="section-subtitle">
-                Technologies I work with to build amazing products
-            </p>
+            <div class="titles" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="fw-bold display-6">
+                    Technical<span class="text-warning"> Skills</span>
+                </h1>
+                <p class="section-subtitle">
+                    Technologies I work with to build amazing products
+                </p>
+            </div>
 
             <div class="row g-5 mt-5">
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
                     <div class="skill-card active-skill">
                         <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
                         <h4>JavaScript (ES6+)</h4>
@@ -284,7 +294,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="skill-card">
                         <div class="skill-icon"><i class="bi bi-layers"></i></div>
                         <h4>React.js</h4>
@@ -294,7 +304,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200">
                     <div class="skill-card">
                         <div class="skill-icon"><i class="bi bi-lightning"></i></div>
                         <h4>Node.js & Express.js</h4>
@@ -304,7 +314,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1400">
                     <div class="skill-card">
                         <div class="skill-icon"><i class="bi bi-database"></i></div>
                         <h4>MongoDB</h4>
@@ -314,7 +324,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1600">
                     <div class="skill-card">
                         <div class="skill-icon"><i class="bi bi-git"></i></div>
                         <h4>Git & GitHub</h4>
@@ -324,7 +334,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1800">
                     <div class="skill-card">
                         <div class="skill-icon"><i class="bi bi-palette"></i></div>
                         <h4>UI/UX Design</h4>
@@ -341,7 +351,7 @@
 
     <!-- Quote Section -->
     <section id="quote" class="p-4">
-        <div class="quote-box">
+        <div class="quote-box" data-aos="flip-right" data-aos-duration="1000">
             <div class="quote-text">
                 "Code. Create. Improve. Repeat."
             </div>
@@ -354,7 +364,7 @@
 
 
 
-    <footer class="footer-section py-5 mt-5">
+    <footer class="footer-section py-5 mt-5" data-aos="fade-up" data-aos-duration="1500">
         <div class="container">
 
             <div class="row justify-content-between">
@@ -385,15 +395,16 @@
 
                     <div class="d-flex gap-3 mt-3">
 
-                        <a href="#" class="icon-circle">
+                        <a href="https://github.com/RahulKamat09" target="_blank" class="icon-circle">
                             <i class="bi bi-github"></i>
                         </a>
 
-                        <a href="#" class="icon-circle">
+                        <a href="https://www.linkedin.com/in/rahul-kamat-769b01313/" target="_blank"
+                            class="icon-circle">
                             <i class="bi bi-linkedin"></i>
                         </a>
 
-                        <a href="#" class="icon-circle">
+                        <a href="mailto:kamatrahul415@gmail.com" target="_blank" class="icon-circle">
                             <i class="bi bi-envelope"></i>
                         </a>
 
@@ -413,8 +424,11 @@
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

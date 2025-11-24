@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -25,7 +29,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg py-3 sticky-top">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" data-aos="fade-right"
+                data-aos-duration="1500">
                 <span class="logo-icon">
                     &lt;<span class="slash">/</span>&gt;
                 </span>
@@ -35,7 +40,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navMenu">
+            <div class="collapse navbar-collapse" id="navMenu" data-aos="fade-left" data-aos-duration="1500">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-2"><a class="nav-link fw-bold" href="index.html">Home</a></li>
                     <li class="nav-item mx-2"><a class="nav-link fw-bold" href="about.html">About</a></li>
@@ -48,7 +53,7 @@
         </div>
     </nav>
 
-    <section class="text-center container">
+    <section class="text-center container" data-aos="fade-up" data-aos-duration="1000">
         <h1 class="mt-5 display-5 fw-bold">
             Let's <span class="resume-title">Connect</span>
         </h1>
@@ -63,7 +68,7 @@
 
     <section class="contact-section py-5">
         <div class="container">
-            <h2 class="contact-title text-center fw-bold mb-5 display-7">
+            <h2 class="contact-title text-center fw-bold mb-5 display-7" data-aos="zoom-out" data-aos-duration="1500">
                 Let’s Build Something Amazing Together 🚀
             </h2>
 
@@ -73,7 +78,7 @@
                 <div class="col-lg-5">
 
                     <!-- Location -->
-                    <div class="contact-box p-4 mb-4">
+                    <div class="contact-box p-4 mb-4" data-aos="fade-right" data-aos-duration="1200">
                         <div class="d-flex align-items-center gap-3">
                             <i class="bi bi-geo-alt-fill contact-icon"></i>
                             <div>
@@ -84,7 +89,7 @@
                     </div>
 
                     <!-- Email -->
-                    <div class="contact-box p-4 mb-4">
+                    <div class="contact-box p-4 mb-4" data-aos="fade-right" data-aos-duration="1400">
                         <div class="d-flex align-items-center gap-3">
                             <i class="bi bi-envelope-fill contact-icon"></i>
                             <div>
@@ -95,7 +100,7 @@
                     </div>
 
                     <!-- Phone -->
-                    <div class="contact-box p-4 mb-4">
+                    <div class="contact-box p-4 mb-4" data-aos="fade-right" data-aos-duration="1600">
                         <div class="d-flex align-items-center gap-3">
                             <i class="bi bi-telephone-fill contact-icon"></i>
                             <div>
@@ -106,7 +111,7 @@
                     </div>
 
                     <!-- Availability -->
-                    <div class="contact-box p-4 mb-4">
+                    <div class="contact-box p-4 mb-4" data-aos="fade-right" data-aos-duration="1800">
                         <div class="d-flex align-items-center gap-3">
                             <i class="bi bi-clock-fill contact-icon"></i>
                             <div>
@@ -119,7 +124,7 @@
                     <!-- Social -->
                     <h5 class="fw-semibold text-white mt-4 mb-3">Connect on Social</h5>
 
-                    <div class="contact-box p-4 mb-3">
+                    <div class="contact-box p-4 mb-3" data-aos="fade-right" data-aos-duration="2000">
                         <div class="d-flex align-items-center gap-3">
                             <i class="bi bi-github contact-icon"></i>
                             <div>
@@ -130,12 +135,13 @@
                         </div>
                     </div>
 
-                    <div class="contact-box p-4">
+                    <div class="contact-box p-4" data-aos="fade-right" data-aos-duration="2000">
                         <div class="d-flex align-items-center gap-3">
                             <i class="bi bi-linkedin contact-icon"></i>
                             <div>
                                 <h6 class="fw-semibold text-white mb-1">LinkedIn</h6>
-                                <p class="mb-0 git fw-semibold"><a href="https://www.linkedin.com/in/rahul-kamat-769b01313/">linkedin.com/in/Rahul-Kamat</a>
+                                <p class="mb-0 git fw-semibold"><a
+                                        href="https://www.linkedin.com/in/rahul-kamat-769b01313/">linkedin.com/in/Rahul-Kamat</a>
                                 </p>
                             </div>
                         </div>
@@ -144,7 +150,7 @@
                 </div>
 
                 <!-- RIGHT SIDE FORM -->
-                <div class="col-lg-7">
+                <div class="col-lg-7" data-aos="fade-left" data-aos-duration="2000">
                     <form class="contact-form p-4" action="https://formspree.io/f/mdkjvjeb" method="POST">
 
                         <label class="form-label text-white">Your Name</label>
@@ -172,14 +178,14 @@
 
         <section class="find-me-section py-5">
             <div class="container">
-                <div class="text-center mb-4">
-                    <h4 class="mt-5 display-5 fw-bold">
+                <div class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="mt-5 fw-bold">
                         Find Me <span class="resume-title">Here</span>
-                    </h4>
+                    </h1>
+                    <div class="underline mx-auto my-2"></div>
                 </div>
-                <div class="underline mx-auto my-2"></div>
 
-                <div class="row justify-content-center px-5 mt-4">
+                <div class="row justify-content-center px-5 mt-4" data-aos="zoom-in" data-aos-duration="2000">
                     <div class="col-lg-12">
                         <div class="map-box">
                             <!-- Google Maps Embed -->
@@ -196,13 +202,15 @@
 
         <section class="faq px-3">
             <div class="container text-center">
-                <h4 class="mt-5 display-5 fw-bold">
-                    Frequetly Asked <span class="resume-title">Questions</span>
-                </h4>
+                <div class="titles mb-2" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="mt-5 fw-bold">
+                        Frequetly Asked <span class="resume-title">Questions</span>
+                    </h1>
 
-                <div class="underline mx-auto my-3"></div>
+                    <div class="underline mx-auto my-3"></div>
 
-                <div class="row g-4">
+                </div>
+                <div class="row g-4" data-aos="fade-up" data-aos-duration="2000">
 
                     <!-- FAQ 1 -->
                     <div class="col-lg-4 col-md-6">
@@ -243,7 +251,7 @@
     </section>
 
 
-    <footer class="footer-section py-5 mt-5">
+    <footer class="footer-section py-5 mt-5" data-aos="fade-up" data-aos-duration="1500">
         <div class="container">
 
             <div class="row justify-content-between">
@@ -274,15 +282,15 @@
 
                     <div class="d-flex gap-3 mt-3">
 
-                        <a href="#" class="icon-circle">
+                        <a href="https://github.com/RahulKamat09" target="_blank" class="icon-circle">
                             <i class="bi bi-github"></i>
                         </a>
 
-                        <a href="#" class="icon-circle">
+                        <a href="https://www.linkedin.com/in/rahul-kamat-769b01313/" target="_blank" class="icon-circle">
                             <i class="bi bi-linkedin"></i>
                         </a>
 
-                        <a href="#" class="icon-circle">
+                        <a href="mailto:kamatrahul415@gmail.com" target="_blank" class="icon-circle">
                             <i class="bi bi-envelope"></i>
                         </a>
 
@@ -302,8 +310,11 @@
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
